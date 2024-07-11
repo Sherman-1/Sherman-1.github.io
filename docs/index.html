@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
+    <title>À propos de moi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .bio-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .cv-link {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .cv-link:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bonjour</h1>
-    <p>Vous pouvez consulter mon CV en cliquant sur le lien ci-dessous :</p>
-    <a href="Resume_CV_.pdf" target="_blank">Voir mon CV</a>
+    <div class="container">
+        <img src="photo.png" alt="Photo de moi" class="photo">
+        <h1>À propos de moi</h1>
+        <div class="bio-box">
+            <p>Bonjour, je m'appelle [Votre Nom]. Voici un petit aperçu de ma vie et de mes expériences...</p>
+            <!-- You can replace the text above with your own bio -->
+        </div>
+        <a href="Resume_CV_.pdf" class="cv-link" target="_blank">Voir mon CV</a>
+    </div>
 </body>
 </html>
