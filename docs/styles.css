@@ -1,6 +1,8 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
@@ -9,59 +11,26 @@ body {
     align-items: center;
     height: 100vh;
 }
-.container {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
-}
-.photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-.cv-link {
-    text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-}
 
-a.cv-link, a.donut-link {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007BFF;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-a.cv-link:hover, a.donut-link:hover {
-    background-color: #0056b3;
-}
 .container, .donut-link {
     margin: 10px;
 }
 
-a.cv-link, a.donut-link {
+.button-link {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 25px;
     text-decoration: none;
     color: #fff;
     background-color: #007BFF;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
 }
 
-a.cv-link:hover, a.donut-link:hover {
+.button-link:hover {
     background-color: #0056b3;
-}
-h1 {
-    margin-top: 0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border: 2px solid #0056b3;
 }
