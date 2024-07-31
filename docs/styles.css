@@ -31,13 +31,36 @@ body {
     color: #007BFF;
     font-weight: bold;
 }
-.cv-link:hover {
-    text-decoration: underline;
-}
-.donut-link {
+
+a.cv-link, a.donut-link {
+    display: inline-block;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.cv-link:hover, a.donut-link:hover {
+    background-color: #0056b3;
+}
+.container, .donut-link {
+    margin: 10px;
+}
+
+a.cv-link, a.donut-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.cv-link:hover, a.donut-link:hover {
+    background-color: #0056b3;
 }
 h1 {
     margin-top: 0;
